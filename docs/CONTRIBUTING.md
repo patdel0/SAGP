@@ -7,6 +7,7 @@
 1. [Requirements](#requirements)  
 2. [Installing git](#installing-git)  
 3. [Fork the repository](#fork-the-repository)  
+4. [Clone the repository](#clone-the-repository)  
 4. [Choosing an issue to work on](#choosing-an-issue-to-work-on)  
 5. [Pushing changes](#pushing-changes)  
 6. [Creating a Pull Request](#creating-a-pull-request)  
@@ -32,6 +33,11 @@ A fork is a copy of the repository that will be placed on your GitHub account.
 **For example:** `https://github.com/octocat/SAGP`.
 
 **Be Aware:** What you have created is a forked copy in a remote version on GitHub. It is not on your local machine yet.
+
+## 4. Clone the repository
+Now that you've successfully forked the repository, you'll want to make a copy and download it (clone) on your local machine.
+
+[GitHub's guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) will walk you through the process.
 
 ## 4. Choosing an issue to work on
 The [project board](https://github.com/users/patdel0/projects/9/views/1) contains issues you can pick from and work on. Alternatively, you can use the [Issues page](https://github.com/patdel0/SAGP/issues) for a more streamlined user interface.  
