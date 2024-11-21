@@ -91,8 +91,10 @@ It is an opportunity to discuss techniques for optimising and improving our craf
 
 3. Check the branch out locally, run it and test the changes.
 
+```sh
 git fetch;
 git checkout <branch-name>
+```
 
 4. Review the code, commit by commit.
 
