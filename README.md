@@ -3,6 +3,7 @@ A web app designed to connect developers with social anxiety experience for safe
 
 ## Table of Contents
 - [Description](#description)
+- [Work in Progress](#work-in-progress)
 - [Contributing](#contributing)
 - [Tech Used](#tech-used)
 - [Contributors](#contributors)
@@ -18,6 +19,9 @@ Furthermore, the project itself serves as a learning experience for developers o
 - Facilitating connections among developers
 - Offering good first issues for beginners
 
+## Work in Progress
+This project is currently in its early stages of development. Some features may be incomplete or subject to change. We appreciate your patience and welcome any contributions or feedback!
+
 ## Contributing
 Please refer to our [contribution guide](docs/CONTRIBUTING.md) for further information.
 
@@ -26,7 +30,8 @@ Please refer to our [contribution guide](docs/CONTRIBUTING.md) for further infor
 - HTML
 - CSS
 
-## Contributors <!-- list in order of appearance -->
+## Contributors
+<!-- List in order of appearance. Up for discussion. -->
 We appreciate the contributions from the following developers:
 - https://github.com/matthiasjrichter
 - https://github.com/patdel0
