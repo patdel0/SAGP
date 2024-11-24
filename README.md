@@ -23,8 +23,8 @@ For people with social anxiety, it can be challenging to have coffee chats. This
 
 ## Contributors
 - https://github.com/patdel0
-- https://github.com/anniecodes404
 - https://github.com/matthiasjrichter
+- https://github.com/anniecodes404
 
 ## License
 Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
