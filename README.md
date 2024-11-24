@@ -1,17 +1,41 @@
-# Social Anxiety Coffee Chat App
-Social Anxiety Coffee Chat Group Project (SACCGP, okay we need a better name)
+# Social Anxiety Group Project
+A web app designed to connect developers with social anxiety experience for safe, low-pressure coffee chats.
 
-**Why?**
-For people with social anxiety, it can be very challenging to have coffee chats.
+## Table of Contents
+- [Description](#description)
+- [Work in Progress](#work-in-progress)
+- [Contributing](#contributing)
+- [Tech Used](#tech-used)
+- [Contributors](#contributors)
+- [License](#license)
 
-**What?**
-Provide a means to help people with social anxiety experience find each other.
+## Description
+At the monthly [100Devs](https://100devs.org/about) Social Anxiety Meetups we realized that for people with social anxiety, it can be challenging to have coffee chats. This project aims to ease the anxiety by:
+- Connecting developers who understand the struggles
+- Providing means to make both reaching out and the coffee chat itself a smooth and fulfilling experience
 
-**How?**
-MVP would be just a curated list of developers. The next step is to make a pretty website. A super fancy version would have a backend so people can sign up, making it a 100-hour project.
-Maybe have a standardized process that everyone agrees on to ease anxiety. For example, provide a question to start the conversation and some fallback questions in case the conversation gets stuck.
+Furthermore, the project itself serves as a learning experience for developers of every skill level by:
+- Providing a safe and low-pressure environment
+- Facilitating connections among developers
+- Offering good first issues for beginners
 
-You can get involved no matter where you are on your coding journey. If there is interest, I'd love to schedule a brainstorming session and start a thread so people who cannot join the voice chats can contribute too.**
+## Work in Progress
+This project is currently in its early stages of development. Some features may be incomplete or subject to change. We appreciate your patience and welcome any contributions or feedback!
 
-**Tech used:** 
+## Contributing
+Please refer to our [contribution guide](docs/CONTRIBUTING.md) for further information.
+
+## Tech Used
 - Git
+- HTML
+- CSS
+
+## Contributors
+<!-- List in order of appearance. Up for discussion. -->
+We appreciate the contributions from the following developers:
+- https://github.com/matthiasjrichter
+- https://github.com/patdel0
+- https://github.com/anniecodes404
+
+## License
+Distributed under the [MIT License](https://choosealicense.com/licenses/mit/).
