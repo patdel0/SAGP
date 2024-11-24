@@ -9,12 +9,17 @@ A web app designed to connect developers with social anxiety experience for safe
 - [License](#license)
 
 ## Description
-For people with social anxiety, it can be challenging to have coffee chats. This project aims to ease the anxiety by:
+At the monthly [100Devs](https://100devs.org/about) Social Anxiety Meetups we realized that for people with social anxiety, it can be challenging to have coffee chats. This project aims to ease the anxiety by:
 - Connecting developers who understand the struggles
 - Providing means to make both reaching out and the coffee chat itself a smooth and fulfilling experience
 
+Furthermore, the project itself serves as a learning experience for developers of every skill level by:
+- Providing a safe and low-pressure environment
+- Facilitating connections among developers
+- Offering good first issues for beginners
+
 ## Contributing
-[Please refer to our contribution guide.](docs/CONTRIBUTING.md)
+Please refer to our [contribution guide](docs/CONTRIBUTING.md) for further information.
 
 ## Tech Used
 - Git
@@ -22,8 +27,9 @@ For people with social anxiety, it can be challenging to have coffee chats. This
 - CSS
 
 ## Contributors
-- https://github.com/patdel0
+We appreciate the contributions from the following developers:
 - https://github.com/matthiasjrichter
+- https://github.com/patdel0
 - https://github.com/anniecodes404
 
 ## License
