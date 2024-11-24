@@ -26,7 +26,7 @@ Please refer to our [contribution guide](docs/CONTRIBUTING.md) for further infor
 - HTML
 - CSS
 
-## Contributors
+## Contributors <!-- list in order of appearance -->
 We appreciate the contributions from the following developers:
 - https://github.com/matthiasjrichter
 - https://github.com/patdel0
