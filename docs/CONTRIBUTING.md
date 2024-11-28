@@ -16,7 +16,8 @@
    - [General guidelines](#general-guidelines)  
    - [How to review](#how-to-review)  
 - [Creating issues](#creating-issues)  
-- [User data handling](#user-data-handling)
+- [How we handle data storage](#how-we-handle-data-storage)
+
 ## Requirements
 - git
 - Node.js
@@ -139,3 +140,7 @@ Provide a concise description of the problem or suggestion, and include relevant
 
 Consider going through [GitHub's article](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart) on the subject for additional information.
 
+## How we handle data storage
+Due to this project being designed to be beginner-friendly. Instead of setting up a custom backend, APIs, and database—tasks that require advanced skills—the project uses a simple JSON-based cloud storage solution provided by [Pantry](https://getpantry.cloud/#).
+
+This approach ensures easy setup and interaction while still allowing for learning opportunities. To expand beyond the [user functions](../src/js/users.js) already included in the project, you can explore Pantry's [official documentation](https://documenter.getpostman.com/view/3281832/SzmZeMLC) for additional capabilities.
