@@ -1,0 +1,17 @@
+#!/bin/bash
+
+pantry_id=$(grep '^VITE_API_KEY' .env | cut -d '=' -f2-)
+
+if [ -z "$pantry_id" ]; then
+	echo "Please enter your Pantry ID:"
+	read pantry_id
+
+	echo "VITE_API_KEY=$pantry_id" >> .env
+fi
+
+seed_data=$(cat $(dirname "$0")/seed_data.json)
+
+curl --location "https://getpantry.cloud/apiv1/pantry/$pantry_id/basket/users" \
+--header "Content-Type: application/json" \
+--data "$seed_data"
+
