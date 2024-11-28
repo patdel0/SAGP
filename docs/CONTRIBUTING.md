@@ -60,6 +60,15 @@ You can pick one that you think is suitable for you. If you are working for the 
 
 You can reply under the issue thread for help, clarification or provide updates on your progress.
 
+## Setting up the development environment
+1. [Create a Pantry](https://getpantry.cloud/)
+> You can use random characters in the email field. No confirmation or personal data is required
+2. Copy the Pantry ID
+2. Run `./script/setup` in your terminal using a bash/zsh shell (i.e git bash)
+3. Enter the Pantry ID from step 1
+4. Run `npm run dev` to start a local instance of the site
+5. Open the URL provided in the terminal, something similar to `http://localhost:5174/`
+
 ## Pushing changes
 
 Once you've chosen an issue and are ready to work on it, head over to the "Development" section and click "Create branch".  
