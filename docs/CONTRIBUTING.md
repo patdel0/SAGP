@@ -19,11 +19,23 @@
 - [User data handling](#user-data-handling)
 ## Requirements
 - git
+- Node.js
 
 ## Installing the tools 
+### git
 Before cloning your forked repository to your local machine, you must have Git installed. You can find instructions for installing Git for your operating system [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 Also, consider watching this tutorial if you haven't learned about git yet (Recommended by Leon but not required): https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+### Node.js
+Node.js is required for running the project locally and managing dependencies. You can download and install Node.js from [Node.js official website](https://nodejs.org). Choose the **LTS (Long-Term Support)** version for better stability and compatibility.
+
+To verify your installation, run the following commands in your terminal:
+
+```sh
+node -v
+npm -v
+```
 
 ## Fork the repository
 You can fork the repository by clicking <a href="https://github.com/patdel0/SAGP/fork">Fork</a>.  
