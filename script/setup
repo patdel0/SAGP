@@ -15,3 +15,4 @@ curl --location "https://getpantry.cloud/apiv1/pantry/$pantry_id/basket/users" \
 --header "Content-Type: application/json" \
 --data "$seed_data"
 
+npm i
