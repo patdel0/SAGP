@@ -1,0 +1,54 @@
+name: Build and push to gh-pages branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload-to-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        env:
+          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
+        run: npm run build
+
+
+      - name: Clean gh-pages branch and push build
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          git fetch origin
+          git switch gh-pages || git checkout -b gh-pages
+
+          # Clean the gh-pages branch (remove all files except dist/ and .git)
+          git ls-tree --name-only HEAD | grep -vE '(^dist$|^.git$)' | xargs git rm -rf
+
+          mv dist/* ./
+          rm -rf dist/
+
+          # Ensure asset paths are relative in the entry file
+          sed -i 's|/assets/|assets/|g' index.html
+
+          COMMIT_HASH=$(git log origin/main -1 --pretty=%h)
+          COMMIT_MSG="Latest build from commit $COMMIT_HASH"
+
+          git add .
+          git commit -m "$COMMIT_MSG"
+
+          git push -f origin gh-pages
+
